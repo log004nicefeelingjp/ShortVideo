@@ -2,10 +2,8 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { ScriptData } from '../types';
 
-if (!process.env.API_KEY) {
-    throw new Error("API_KEY environment variable not set");
-}
-
+// The execution environment will provide the API key.
+// The previous check `if (!process.env.API_KEY)` caused a crash in the browser.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const scriptGenerationSchema = {
