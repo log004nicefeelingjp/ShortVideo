@@ -1,5 +1,6 @@
+
 {
   "name": "AI Short Video Creator",
-  "description": "An AI-powered tool to generate video storyboards from a simple topic, creating scenes with images and narrator scripts.",
+  "description": "An AI-powered tool to create a video storyboard from your own script (text file) and narration (audio file). The AI generates matching images for each scene.",
   "requestFramePermissions": []
 }
