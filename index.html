@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI ショート動画クリエーター</title>
   <script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // Polyfill for process.env to prevent crashes in browser environments
+  // where a build step hasn't replaced process.env.
+  // The execution environment is still expected to provide the API key.
+  window.process = window.process || { env: {} };
+</script>
 <script type="importmap">
 {
   "imports": {
