@@ -1,0 +1,5 @@
+{
+  "name": "AI Short Video Creator",
+  "description": "An AI-powered tool to generate video storyboards from a simple topic, creating scenes with images and narrator scripts.",
+  "requestFramePermissions": []
+}
